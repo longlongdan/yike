@@ -638,6 +638,11 @@ img {
   top: 0.8125rem;
   right: 0.75rem;
 }
+.loading {
+  width: 8%;
+  height: 8%;
+  margin: 0 auto;
+}
 .body {
   transition: all 0.5s 0.1s;
 }

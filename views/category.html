@@ -1,0 +1,10 @@
+<!-- 栏目浏览 -->
+	<ul class="category" ng-controller='CategoryController'>
+		<li ng-repeat='category in categorys'>
+			<a href="javascript:;">
+				<img ng-src="{{category.icon}}" alt="">
+				<h5>{{category.name}}</h5>
+				<p>{{category.description}}</p>
+			</a>
+		</li>
+	</ul>
